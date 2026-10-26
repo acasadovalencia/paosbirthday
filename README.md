@@ -2,18 +2,20 @@
 
 Landing de invitación para el cumpleaños de Pao. Cada invitado confirma su asistencia por WhatsApp.
 
-**Sábado 28 de noviembre · 19:30 h · Pez Gato Music Bar (Calle Pez 40, Malasaña)**
+**Sábado 28 de noviembre · 19:00 h · Pez Gato Music Bar (Calle Pez 40, Malasaña)**
 
 ## Estructura
 
 ```
 cumple-pao-35/
 ├── index.html              Página
-├── css/styles.css          Estilos (móvil primero, escritorio a partir de 980 px)
-├── js/liquid.js            Fondo líquido animado (WebGL, con degradado de respaldo)
+├── css/styles.css          Estilos (móvil primero, escritorio a partir de 900 px)
+├── js/effects.js           Aparición al hacer scroll y parallax
 ├── js/main.js              Formulario → mensaje de WhatsApp
 └── assets/
-    ├── img/globos-35.*     Foto de los globos (portada)
+    ├── img/hero-35.*       Foto de la portada (globos 35)
+    ├── img/bar-*.*         Fotos del Pez Gato (sección «el plan»)
+    ├── img/dc-*.*          Imágenes del dresscode
     ├── img/pao.*           Foto de Pao con el viraje de color
     ├── img/preview.jpg     Imagen de vista previa al compartir el enlace
     ├── cumple-pao-35.ics   Evento para "Añadir al calendario"
